@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonials{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    position: relative;
+    z-index: -2;
+}
+
+.testimonials-content{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 322px;
+    padding-bottom: 240px;
+}
+
+.title{
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    padding-bottom: 21px;
+    color: #FFFFFF;
+    width: 327px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 50px;
+    height: 7px;
+    background: #FD749B;
+    border-radius: 3px;
+}
+
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 542px;
+    margin: 45px auto 0;
+}
+
+.holder{
+    position: relative;
+    width: 410px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    opacity: 0.7;
+    margin-left: calc(50% + 25px);
+    padding: 17.7px 0 17.7px 26.33px;
+    margin-top: 300px;
+}
+
+.holder::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -28px;
+    transform: translate(0, -50%);
+    border-top: 20px solid transparent;
+	border-right: 30px solid #FFFFFF;
+	border-bottom: 20px solid transparent;
+    /* border-radius: 5px; */
+}
+
+.holder__title{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.36px;
+}
+
+.holder-img-list{
+    display: flex;
+    margin-top: 6px;
+}
+
+.holder-img-list__item{
+    padding-right: 4.75px;
+}
+
+.holder__description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.holder--bold{
+    font-weight: 700;
+}
+
+.holder__img{
+    position: absolute;
+    top: 20.68px;
+    right: 18px;
+}
+
+.graphics-1{
+    position: absolute;
+    right: 8%;
+    bottom: 11%;
+}
+
+.graphics-2{
+    position: absolute;
+    left: 10%;
+    top: 19%;
+}
+
+.bubls-img{
+    position: absolute;
+    z-index: -1;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
